@@ -1,0 +1,14 @@
+@keyframes levitate {
+    0% { top: 0; }
+    50% { top: rem(-50); }
+    51% { top: rem(-49); }
+    100% { top: 0; }
+}
+
+@keyframes floating {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(20deg); }
+    51% { transform: rotate(19deg); }
+    100% { transform: rotate(0deg); }
+}
+  
