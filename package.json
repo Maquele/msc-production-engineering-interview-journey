@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./",
-    "start-css": "node-sass --watch ./src/sass/index.scss ./assets/styles/index.css --source-map-root file://assets/styles/",
+    "start": "http-server ./public",
+    "start-css": "node-sass --watch ./src/sass/index.scss ./public/assets/styles/index.css --source-map-root file://assets/styles/",
+    "deploy": "firebase deploy --only hosting:maquele",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "firebase": "^9.10.0",
     "http-server": "^14.1.1",
     "node-sass": "^7.0.3",
     "sass": "^1.55.0"

@@ -1,21 +1,21 @@
-$color-black: #1b1b1b;
+$color-black: #000000;
 $color-white: #ffffff;
 $color-gunmetal: #30343c;
 $color-charcoal: #494F5B;
 $color-pale-spring-bud: #ded9a8;
-$color-pale-spring-bud: #805a14;
 $color-ming: #016473;
 $color-cadmium-orange: #fd913e;
+$color-spanish-orange: #e36f16;
 $color-auburn: #a1312f;
 
 // Font Family
-$font-primary: 'Raleway';
+$font-primary: 'Roboto';
 $font-family: $font-primary, 'Helvetica', 'Arial', 'sans-serif';
 $font-title: 'Alfa Slab One', serif;
 
 // Font Weights
-$light: 300;
-$regular: 400;
+$light: 400;
+$regular: 500;
 $bold: 700;
 
 $font-xxs: rem(12);
@@ -38,7 +38,6 @@ $margin-md: rem(30);
 $margin-lg: rem(45);
 $margin-xl: rem(60);
 
-// Breakpoints
 $phone-sm: 576px;
 $tablet-md: 768px;
 $desktop-lg: 992px;
