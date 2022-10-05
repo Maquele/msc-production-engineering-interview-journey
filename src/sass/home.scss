@@ -13,8 +13,10 @@ header {
         text-shadow: -5px 3px $color-auburn;
     }
     @media (min-width: $desktop-lg) {
-        font-size: rem(45);
         width: rem(950);
+        h1 {
+            font-size: rem(45);
+        }
     }
 }
 
@@ -39,9 +41,6 @@ main {
     @media (min-width: $desktop-xl) {
         max-width: rem(1100);
         padding-top: rem(200);
-    }
-    @media (min-width: $desktop-xxl) {
-        max-width: rem(1400);
     }
 }
 
@@ -98,7 +97,9 @@ main {
         }
     }
     &.check-section {
-        padding-top: rem(100);
+        @media (min-width: $desktop-lg) {
+            padding-top: rem(100);
+        }
         .icon-check {
             display: inline-block;
             position: relative;
@@ -194,10 +195,6 @@ main {
     @media (min-width: $desktop-xl) {
         left: calc(50% - 550px);
         width: rem(1100);
-    }
-    @media (min-width: $desktop-xxl) {
-        left: calc(50% - 700px);
-        width: rem(1400);
     }
 }
 

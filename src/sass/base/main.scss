@@ -32,6 +32,10 @@ a {
   font-weight: $regular;
   text-decoration: underline;
   cursor: pointer;
+  color: $color-cadmium-orange;
+  &:hover {
+      color: $color-spanish-orange;
+  }
 }
 
 img {

@@ -32,7 +32,10 @@ a {
   font-size: 1.125rem;
   font-weight: 500;
   text-decoration: underline;
-  cursor: pointer; }
+  cursor: pointer;
+  color: #fd913e; }
+  a:hover {
+    color: #e36f16; }
 
 img {
   max-width: 100%; }
@@ -78,8 +81,9 @@ header {
     text-shadow: -5px 3px #a1312f; }
   @media (min-width: 992px) {
     header {
-      font-size: 2.8125rem;
-      width: 59.375rem; } }
+      width: 59.375rem; }
+      header h1 {
+        font-size: 2.8125rem; } }
 
 main {
   display: flex;
@@ -103,9 +107,6 @@ main {
     main {
       max-width: 68.75rem;
       padding-top: 12.5rem; } }
-  @media (min-width: 1600px) {
-    main {
-      max-width: 87.5rem; } }
 
 .text-small {
   font-size: 1rem; }
@@ -147,23 +148,24 @@ main {
       position: absolute;
       top: 28.125rem;
       left: 3.125rem; } }
-  .step-section.check-section {
-    padding-top: 6.25rem; }
-    .step-section.check-section .icon-check {
-      display: inline-block;
-      position: relative;
-      width: 1.875rem; }
-      .step-section.check-section .icon-check .check-square {
-        display: block;
-        width: 1.25rem;
-        height: 1.25rem;
-        border: 0.1875rem solid #30343c; }
-      .step-section.check-section .icon-check img {
-        position: absolute;
-        width: 3.125rem;
-        max-width: 3.125rem;
-        top: -0.25rem;
-        left: -0.625rem; }
+  @media (min-width: 992px) {
+    .step-section.check-section {
+      padding-top: 6.25rem; } }
+  .step-section.check-section .icon-check {
+    display: inline-block;
+    position: relative;
+    width: 1.875rem; }
+    .step-section.check-section .icon-check .check-square {
+      display: block;
+      width: 1.25rem;
+      height: 1.25rem;
+      border: 0.1875rem solid #30343c; }
+    .step-section.check-section .icon-check img {
+      position: absolute;
+      width: 3.125rem;
+      max-width: 3.125rem;
+      top: -0.25rem;
+      left: -0.625rem; }
   @media (min-width: 992px) {
     .step-section.instructions-section {
       position: absolute;
@@ -225,10 +227,6 @@ main {
     .steps-path {
       left: calc(50% - 550px);
       width: 68.75rem; } }
-  @media (min-width: 1600px) {
-    .steps-path {
-      left: calc(50% - 700px);
-      width: 87.5rem; } }
 
 footer {
   width: 100%;
