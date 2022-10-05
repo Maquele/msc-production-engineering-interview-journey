@@ -111,6 +111,9 @@ main {
 .text-small {
   font-size: 1rem; }
 
+.text-italic {
+  font-style: italic; }
+
 .step-section {
   width: 80%;
   z-index: 1;
@@ -143,11 +146,15 @@ main {
       position: absolute;
       top: -1.25rem;
       left: 0rem; } }
-  @media (min-width: 992px) {
-    .step-section.download-section {
-      position: absolute;
-      top: 28.125rem;
-      left: 3.125rem; } }
+  .step-section.reading-section {
+    text-align: center; }
+  .step-section.download-section {
+    text-align: center; }
+    @media (min-width: 992px) {
+      .step-section.download-section {
+        position: absolute;
+        top: 28.125rem;
+        left: 3.125rem; } }
   @media (min-width: 992px) {
     .step-section.check-section {
       padding-top: 6.25rem; } }
@@ -174,14 +181,16 @@ main {
     .step-section.awnser-section {
       position: absolute;
       top: 93.75rem; } }
-  @media (min-width: 992px) {
-    .step-section.contact-section {
-      position: absolute;
-      top: 110rem; } }
+  .step-section.contact-section {
+    text-align: center; }
+    @media (min-width: 992px) {
+      .step-section.contact-section {
+        position: absolute;
+        top: 110rem; } }
   @media (min-width: 992px) {
     .step-section.send-section {
       position: absolute;
-      top: 140.625rem; } }
+      top: 135.625rem; } }
   .step-section.results-section {
     text-align: center; }
     @media (min-width: 992px) {

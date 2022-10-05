@@ -48,6 +48,10 @@ main {
     font-size: rem(16);
 }
 
+.text-italic {
+    font-style: italic;
+}
+
 .step-section {
     width: 80%;
     z-index: 1;
@@ -89,7 +93,11 @@ main {
             left: rem(0);
         }
     }
+    &.reading-section {
+        text-align: center;
+    }
     &.download-section {
+        text-align: center;
         @media (min-width: $desktop-lg) {
             position: absolute;
             top: rem(450);
@@ -132,6 +140,7 @@ main {
         }
     }
     &.contact-section {
+        text-align: center;
         @media (min-width: $desktop-lg) {
             position: absolute;
             top: rem(1760);
@@ -140,7 +149,7 @@ main {
     &.send-section {
         @media (min-width: $desktop-lg) {
             position: absolute;
-            top: rem(2250);
+            top: rem(2170);
         }
     }
     &.results-section {
